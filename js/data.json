@@ -1,0 +1,60 @@
+[
+    {
+        "id" : "1",
+        "analogie": "une époque",
+        "valeur_analogie": "l'époque Edo",
+        "explication" : "c'est une époque que j'affectionne où le Japon évolue et en particulié en terme d'architecture où les bâtiments sont majestueux et grandiose",
+        "img" : "./img/image1.jpg",
+        "alt" : "époque"
+    },
+    {
+        "id" : "2",
+        "analogie": "un art",
+        "valeur_analogie": "l'abstrait",
+        "explication" : "c'est un art qui est la visualisation unique d'une personne et qui peut avoir énormément de signification même si ce n'est pas montré explicitement",
+        "img" : "./img/image2.jpg",
+        "alt" : "abstrait"
+    },
+    {
+        "id" : "3",
+        "analogie": "un sport",
+        "valeur_analogie": "l'Escrime",
+        "explication" : "c'est un sport qui nécessite de la pratique, du réflexe mais aussi de la détermination pour gagner face à son adversaire",
+        "img" : "./img/image3.jpg",
+        "alt" : "escrime"
+
+    },
+    {
+        "id" : "4",
+        "analogie": "une saison",
+        "valeur_analogie": "l'hiver",
+        "explication" : "l'hiver représente la froideur mais aussi la blancheur qui recouvre toute chose avec pureté",
+        "img" : "./img/image4.jpg",
+        "alt" : "hiver"
+    },
+    {
+        "id" : "5",
+        "analogie": "un jeu",
+        "valeur_analogie": "Undertale",
+        "explication" : "c'est un jeu qui donne la possibilité au joueur d'être qui il souhaite, et qui lui apprend que chaque action à des conséquences positives ou négatives",
+        "img" : "./img/image5.jpg",
+        "alt" : "Undertale"
+    },
+    {
+        "id" : "6",
+        "analogie": "un influenceur",
+        "valeur_analogie": "Technoblade",
+        "explication" : "c'est une personne qui malgré sa maladie, a fait rire beaucoup de monde dont moi. Il est un homme que je tiens en haute estime et que je respecte",
+        "img" : "./img/image6.jpg",
+        "alt" : "Technoblade"
+    },
+    {
+        "id" : "7",
+        "analogie": "une arme",
+        "valeur_analogie": "un Katana",
+        "explication" : "c'est une une arme qui est travaillé minutieusement pendant des heures. Elle possède une certaine fragilité certes elle symbolise le courage et la vaillance",
+        "img" : "./img/image7.jpg",
+        "alt" : "Katana"
+    }
+
+]

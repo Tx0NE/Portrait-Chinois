@@ -1,0 +1,248 @@
+@import 'https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Raleway&display=swap';
+
+body {
+    background-color: rgb(86, 77, 142);
+    margin:auto;
+    font-size: 1.8em;
+    font-size: 1.8em;
+    text-align: center;
+    background-size: cover;
+    width: 1024px;
+    height: 1068px;
+    min-width: 1000px;
+    
+}
+
+.float {
+    -webkit-transform: translatey(0px);
+        transform: translatey(0px);
+        animation: floatNoShadow 5s ease-in-out 5s infinite;
+}
+
+h1 {
+    color: #F3F3F3;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 6.2rem;
+    
+    line-height: 1;
+    margin-bottom: 1.5em;
+    margin-top: 2.7em;
+    transition: all 3s !important;
+    
+}
+
+h2 {
+
+    margin-bottom: 100px;
+    margin-top: 40px;
+    background-color: #CEF6EC;
+    text-align: center;
+    color: #848484;
+    height: 45px;
+    border-radius: 40px;
+    font-size: 1em;
+    font-weight: 100;
+    transition: all 750ms !important;
+    
+
+}
+
+
+img {
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #EFEFEF;
+    border-style: solid;
+    width: 300px;
+    max-height: 500px;
+    margin-bottom: auto;
+    
+    margin: auto;
+    display: block;
+}
+
+span {
+    color: #fdfdfd;
+    font-weight: 800;
+}
+
+.boîte {
+    height: 650px;
+    margin-top: 450px;
+    opacity: 15;
+    background-color: #4d4747; 
+    
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: dotted;
+    
+    margin: auto;
+    margin-bottom: 25vh;
+    transition: all 750ms !important;
+     width: fit-content;
+
+}
+.présentation {
+    height: 400px;
+    font-family: 'Quicksand', italic;
+    transition: all 2s !important;
+    
+}
+
+p:not(.ML p, .CA p, .Mention-légal p){
+  font-family: 'Source Sans Pro', sans-serif;
+    margin: auto;
+    margin-top: 80px;
+    width: 500px;
+    height: 470px;
+    color: #cac2c2;
+    line-height: 45px;
+    font-size: .9em;
+}
+
+
+
+nav {
+    width: fit-content;
+    position: fixed ;
+    top:0;
+    background-color: #616b78;
+    font-size: 0.79em;
+    border-radius: 10px;
+    transition: all 3s !important;
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+
+
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(230, 229, 229);
+    font-weight: bold;
+
+}
+
+a:hover {
+    background-color: #e6b4fb5d;
+    border-radius: 10px;
+    animation: slide 2s ease;
+    transition: all 750ms !important;
+}
+
+.ML {
+    background-color: #615d86f6;
+    border-color: #ffffff;
+    border-width: 15px;
+    border-style: dotted solid dashed;
+}
+
+label {
+    color: #F3F3F3;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 45px;
+    font-size: .6em;
+}
+
+
+h3:hover {
+    background-color: #c2b2b2aa;
+    border-radius: 10px;
+    
+}
+
+textarea{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.CA {
+    color: #F3F3F3;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -3em;
+    margin-bottom: 35px;
+}
+
+p.send {
+    width: fit-content;
+    color: #F3F3F3;
+    font-family: 'Quicksand', sans-serif;
+    padding: 3px;
+    background-color: #969191;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.ML{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+form{
+    margin: auto;
+    position: relative;
+}
+
+.popup-invisible{
+    display: none;
+}
+
+.popup-visible{
+    display: flex;
+}
+
+p.boîte {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: auto;
+    margin-top: 80px;
+    width: 500px;
+    height: 470px;
+    color: #908c8c;
+    line-height: 45px;
+    font-size: .9em;
+}
+
+.Mention-légal {
+    color: #F3F3F3;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #3e4756;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: double dashed;
+    margin-left: auto;
+    margin-top: 100px;
+   
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    border-color: #EFEFEF;
+    color: #F3F3F3;
+    border-style: solid;
+    border-width: 5px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
